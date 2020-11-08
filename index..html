@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing Board</title>
+    <link rel="stylesheet" href="./css/draw.css">
+</head>
+<body>
+    <div class="wrapper">
+        <canvas id="draw" width="700" height="300"></canvas>
+        <ul>
+            <li><input type="color" id="changeColor"></li>
+            <li><input type="button" value="清屏" id="clearAll"></li>
+            <li><input type="button" value="橡皮" id="eraser"></li>
+            <li><input type="button" value="撤销" id="back"></li>
+            <li><input type="range" value="线条粗细" id="liner" min="1" max="25"></li>
+        </ul>
+    </div>
+    <script src="./js/draw.js"></script>
+</body>
+</html>
